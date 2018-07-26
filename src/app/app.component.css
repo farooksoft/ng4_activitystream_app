@@ -1,0 +1,40 @@
+.heading{
+    background-color: blanchedalmond;
+    text-align: center;
+    color: blueviolet
+}
+
+*{
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: brown
+}
+.column{
+    float: left;
+    padding : 20px;
+    height: 520px;
+}
+
+.column.left{
+    border-style: solid;
+    background-color:black;
+    float: left;
+    width: 15%;
+    background-color: bisque
+}
+
+.column.right{
+    border-style: solid;
+    background-color:black;
+    float: left;
+    width: 15%;
+    background-color: bisque
+}
+.column.middle{
+    border-style: solid;
+    background-color:black;
+    float: left;
+    width: 70%;
+    background-color:beige
+}

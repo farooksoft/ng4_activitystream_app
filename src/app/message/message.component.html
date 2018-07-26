@@ -1,0 +1,18 @@
+<p>
+  Message 
+</p>
+
+
+
+<div class="column">
+  <div class="message">
+    <ul>
+      <li *ngFor = 'let message of messages'>
+        {{message.senderName}}
+        {{message.message}}
+        {{message.postedDate}}
+
+      </li>
+    </ul>
+  </div>
+</div>
